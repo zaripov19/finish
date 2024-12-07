@@ -44,8 +44,10 @@
             for (Post post : posts) {
         %>
         <tr>
-            <td><%= post.getId() %></td>
-            <td><%= post.getTitle() %></td>
+            <td><%= post.getId() %>
+            </td>
+            <td><%= post.getTitle() %>
+            </td>
             <td>
                 <img src="/file/get?id=<%= post.getCover() != null ? post.getCover().getId() : "#" %>"
                      alt="Image not found" height="70" width="70" class="img-thumbnail">
@@ -81,6 +83,7 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-wHnhVV8k6+33QaKpF6BlD9xPL4r+SLefP4Iw2SP6L5/jAdME8XwR1t1RHy6b6+h6" crossorigin="anonymous"></script>
+        integrity="sha384-wHnhVV8k6+33QaKpF6BlD9xPL4r+SLefP4Iw2SP6L5/jAdME8XwR1t1RHy6b6+h6"
+        crossorigin="anonymous"></script>
 </body>
 </html>

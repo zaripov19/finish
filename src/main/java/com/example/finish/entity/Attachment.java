@@ -12,7 +12,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 public class Attachment extends BaseEntity {
-
-
     private String name;
 }
